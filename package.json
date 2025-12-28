@@ -1,0 +1,30 @@
+{
+  "name": "lmox-voice-bot",
+  "version": "1.0.0",
+  "description": "A Discord voice channel management bot by Lmox",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "axios": "^1.11.0",
+    "discord": "^0.8.2",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "fs": "^0.0.1-security",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.12.1",
+    "vibesync": "^1.0.6"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "voice",
+    "channel",
+    "management"
+  ],
+  "author": "Lmox",
+  "license": "MIT"
+}
